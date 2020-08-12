@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="username">Nama Pengguna</string>
+    <string name="company">Perusahaan</string>
+    <string name="name">Nama</string>
+    <string name="followers">Pengikut</string>
+    <string name="following">Mengikuti</string>
+    <string name="repository">Repository</string>
+    <string name="location">Lokasi</string>
+    <string name="search">Cari</string>
+    <string name="search_hint">Masukkan Nama</string>
+    <string name="location_unknown">Lokasi tidak diketahui</string>
+    <string name="wording_unknown_users">Silahkan klik tombol cari pada action bar untuk menemukan pengguna github</string>
+    <string name="wording_unknown_follow">Pengguna tidak ditemukan</string>
+    <string name="language">Bahasa</string>
+    <string name="detail_person">Detail Pengguna</string>
+    <string name="toast_add_fav">Berhasil ditambahkan ke pengguna favorit</string>
+    <string name="toast_del_fav">Dihapus dari pengguna favorit</string>
+    <string name="users_favorite">Pengguna Favorit</string>
+    <string name="settings">Pengaturan</string>
+    <string name="settings_language">Pengaturan Bahasa</string>
+    <string name="set_reminder">Atur Pengingat</string>
+    <string name="wording_alarm_on">Menghidupkan pengingat harian</string>
+    <string name="wording_alarm_off">Mematikan pengingat harian</string>
+    <string name="appwidget_text">Pengguna Favorit</string>
+    <string name="empty_text">Tidak ada pengguna favorite</string>
+</resources>

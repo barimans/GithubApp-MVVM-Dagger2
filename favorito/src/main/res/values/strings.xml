@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Favorito</string>
+    <string name="name">Name</string>
+    <string name="wording_unknown_user">Users favorite not found</string>
+</resources>
