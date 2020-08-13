@@ -7,7 +7,6 @@ import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
 import androidx.lifecycle.Observer
-import com.bumptech.glide.Glide
 import com.example.githubperson.BuildConfig
 import com.example.githubperson.R
 import com.example.githubperson.base.BaseActivity
@@ -147,7 +146,7 @@ class DetailActivity : BaseActivity<DetailViewModel>(), DetailUsersContract.View
     }
 
     private fun setupToolbar(){
-        supportActionBar?.setTitle(getString(R.string.detail_person))
+        supportActionBar?.title = getString(R.string.detail_person)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setDisplayShowHomeEnabled(true)
     }

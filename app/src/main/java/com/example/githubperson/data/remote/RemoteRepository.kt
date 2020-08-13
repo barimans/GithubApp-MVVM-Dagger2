@@ -1,4 +1,4 @@
-package com.example.githubperson.data.remote;
+package com.example.githubperson.data.remote
 
 import com.example.githubperson.data.db.entity.UsersFavEntity
 import com.example.githubperson.data.model.ResponseSearchUsers
@@ -10,8 +10,7 @@ class RemoteRepository : RemoteDataSource {
     private var apiService: RemoteService? = null
 
     init {
-        apiService =
-            RemoteService.create()
+        apiService = RemoteService.create()
     }
 
     companion object {

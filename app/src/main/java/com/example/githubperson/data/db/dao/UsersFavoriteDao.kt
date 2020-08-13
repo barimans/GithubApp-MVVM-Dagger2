@@ -1,7 +1,10 @@
 package com.example.githubperson.data.db.dao
 
 import android.database.Cursor
-import androidx.room.*
+import androidx.room.Dao
+import androidx.room.Insert
+import androidx.room.OnConflictStrategy
+import androidx.room.Query
 import com.example.githubperson.data.db.entity.UsersFavEntity
 
 @Dao

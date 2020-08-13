@@ -1,7 +1,6 @@
 package com.example.githubperson.ui.detail_ui.followtab_ui
 
 import com.example.githubperson.data.model.UsersItems
-import com.example.githubperson.data.repository.impl.DetailUsersRepositoryImpl
 import com.example.githubperson.data.repository.impl.FollowTabRepositoryImpl
 import io.reactivex.Observable
 import javax.inject.Inject

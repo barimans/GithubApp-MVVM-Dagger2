@@ -1,6 +1,5 @@
 package com.example.githubperson.ui.main_ui
 
-import android.annotation.SuppressLint
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.githubperson.data.model.UsersItems
@@ -12,13 +11,12 @@ import javax.inject.Inject
 class MainViewModel @Inject constructor(
     private val interactor: MainUsersInteractor
 ): ViewModel(), MainUsersContract.ViewModel{
-    val compositeDisposable = CompositeDisposable()
+    private val compositeDisposable = CompositeDisposable()
 
     val isLoading = MutableLiveData<Boolean>()
     val isError = MutableLiveData<Throwable>()
     val users = MutableLiveData<List<UsersItems>>()
 
-    @SuppressLint("CheckResult")
     override fun searchUsers(search: String) {
         isLoading.postValue(true)
         compositeDisposable.add(

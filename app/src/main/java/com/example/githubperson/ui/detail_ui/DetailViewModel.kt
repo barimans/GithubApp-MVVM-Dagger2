@@ -2,7 +2,6 @@ package com.example.githubperson.ui.detail_ui
 
 import android.annotation.SuppressLint
 import android.content.Context
-import android.util.Log
 import androidx.core.net.toUri
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel

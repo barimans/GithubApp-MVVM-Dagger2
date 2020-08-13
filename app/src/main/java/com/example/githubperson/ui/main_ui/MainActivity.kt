@@ -3,7 +3,6 @@ package com.example.githubperson.ui.main_ui
 import android.app.SearchManager
 import android.content.Context
 import android.content.Intent
-import android.provider.Settings
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
@@ -29,6 +28,8 @@ class MainActivity : BaseActivity<MainViewModel>(), MainUsersContract.View {
   override fun injectViewModel() {
     mViewModel = injectViewModel(viewModelFactory)
   }
+
+  override fun getLayoutResourceId(): Int = R.layout.activity_main
 
   override fun initView() {
     viewModel.apply {
@@ -82,8 +83,6 @@ class MainActivity : BaseActivity<MainViewModel>(), MainUsersContract.View {
     }
     return super.onOptionsItemSelected(item)
   }
-
-  override fun getLayoutResourceId(): Int = R.layout.activity_main
 
   private fun initRecyclerView(){
     rvGithubUsers.apply {

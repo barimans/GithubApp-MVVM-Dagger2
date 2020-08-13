@@ -11,4 +11,5 @@ class NetworkModule {
     @Provides
     @Singleton
     fun provideRemoteRepository(): RemoteRepository = RemoteRepository.getInstance()
+
 }

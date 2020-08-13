@@ -4,10 +4,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
 import com.example.githubperson.R
 import com.example.githubperson.data.db.entity.UsersFavEntity
-import com.example.githubperson.data.model.UsersItems
 import com.example.githubperson.utils.loadImageGlide
 import kotlinx.android.synthetic.main.item_list_github_person.view.*
 

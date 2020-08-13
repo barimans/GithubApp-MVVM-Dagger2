@@ -1,7 +1,6 @@
 package com.example.githubperson.ui.settings_ui
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.Settings
 import android.view.MenuItem
@@ -66,7 +65,7 @@ class SettingsActivity : DaggerAppCompatActivity() {
     }
 
     private fun setupToolbar(){
-        supportActionBar?.setTitle(getString(R.string.settings))
+        supportActionBar?.title = getString(R.string.settings)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setDisplayShowHomeEnabled(true)
     }

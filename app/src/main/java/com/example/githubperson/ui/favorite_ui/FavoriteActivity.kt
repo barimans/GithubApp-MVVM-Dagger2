@@ -99,7 +99,7 @@ class FavoriteActivity : BaseActivity<FavoriteViewModel>(), FavoriteContract.Vie
     }
 
     private fun setupToolbar(){
-        supportActionBar?.setTitle(getString(R.string.users_favorite))
+        supportActionBar?.title = getString(R.string.users_favorite)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setDisplayShowHomeEnabled(true)
     }

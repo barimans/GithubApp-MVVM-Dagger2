@@ -3,7 +3,7 @@ package com.example.githubperson.utils
 import android.content.ContentValues
 import android.database.Cursor
 import com.example.githubperson.data.db.entity.UsersFavEntity
-import java.util.ArrayList
+import java.util.*
 
 fun ContentValues.transformUserFavEntity(): UsersFavEntity{
     return UsersFavEntity(

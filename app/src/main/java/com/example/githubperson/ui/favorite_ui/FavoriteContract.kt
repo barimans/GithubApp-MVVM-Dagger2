@@ -13,7 +13,7 @@ interface FavoriteContract {
         fun observeFavoriteUsers(favoriteUsers: MutableList<UsersFavEntity>)
     }
 
-    interface Interactor{}
+    interface Interactor
 
     interface ViewModel{
         fun getListFavoriteUsers(context: Context)
